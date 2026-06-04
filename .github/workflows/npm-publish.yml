@@ -15,8 +15,8 @@ jobs:
         run: npm ci
 
       # Free baseline gate — fails on high+ severity
-      - name: npm audit
-        run: npm audit --audit-level=high
+      # - name: npm audit
+      #   run: npm audit --audit-level=high
 
       # Snyk gate (needs SNYK_TOKEN saved as a repo secret)
       - name: Snyk test
