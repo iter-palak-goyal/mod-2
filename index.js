@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   const settings = _.defaultsDeep({}, userSettings, defaultSettings);
 
   res.json({
-    message: 'Hello, World!',
+    message: 'Helloo, World!',
     settings: settings
   });
 });
